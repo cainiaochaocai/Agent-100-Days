@@ -87,7 +87,7 @@ uv run jupyter notebook
 
 #### 学习内容
 
-- 为什么模型世界里一切都会被转成数字
+- 什么是 Token，为什么 LLM 的基本单位是 Token
 - Embedding 是什么，它解决了什么问题
 - 相似性、类比、联想在向量空间中如何体现
 
