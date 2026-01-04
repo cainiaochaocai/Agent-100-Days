@@ -95,9 +95,8 @@ uv run jupyter notebook
 
 #### 学习内容
 
-- 为什么 RNN 不够用，Attention 出现的背景
+- 为什么 RNN 不够用，Transformer 出现的背景
 - Self-Attention 在“算什么”
-- Query / Key / Value 的直觉理解
 - Layer 在模型中承担的角色
 
 ### **Day 4 ｜从训练到推理：模型是怎么“学会语言”的**
