@@ -150,7 +150,7 @@ uv run jupyter notebook
 
 - 了解Gradio
 - 基于Gradio实现英语学习界面
-- 输出模型生成的英语内容和词汇解释
+- 通过界面与Agent进行交互
 
 ### **Day 10 ｜多轮对话**
 
