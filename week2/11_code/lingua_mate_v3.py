@@ -53,21 +53,25 @@ chain_with_history = RunnableWithMessageHistory(
     history_messages_key="chat_history",
 )
 
-def get_ai_response(user_message: str, session_id: str) -> str:
+def stream_ai_response(user_message: str, session_id: str):
     """
     调用大模型，生成回复内容
     - user_message: 当前用户输入
     - session_id: 会话ID（用于区分不同用户）
     """
+   
+    partial_answer = ""
 
-    response = chain_with_history.invoke(
+    for chunk in chain_with_history.stream(
         {"user_message": user_message},
         config={"configurable": {"session_id": session_id}}
-    )
-    return response
+    ):
+        if chunk:
+            partial_answer += chunk
+            yield partial_answer
 
 
-def chat_handler(message: str, history: list) -> str:
+def chat_handler(message: str, history: list):
     """
     Gradio ChatInterface 的回调函数
     负责：
@@ -76,7 +80,8 @@ def chat_handler(message: str, history: list) -> str:
     3. 返回给前端展示
     """
     session_id = "user_001"  # 在实际应用中，应根据用户身份动态生成
-    return get_ai_response(message, session_id)
+    for partial in stream_ai_response(message, session_id):
+        yield partial
 
 
 # 使用 Gradio 专门为聊天机器人设计的高层接口
