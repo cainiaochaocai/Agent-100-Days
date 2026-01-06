@@ -229,7 +229,7 @@ uv run jupyter notebook
 
 #### 学习内容
 
-- Promp 是什么，不是什么
+- Prompt 是什么，不是什么
 - Prompt 的真实作用
 - Prompt 适合做什么,不适合做什么
 
