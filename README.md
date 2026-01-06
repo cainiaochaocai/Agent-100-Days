@@ -75,7 +75,7 @@ uv run jupyter notebook
 > - 为什么它能表现出类智能行为
 > - 为什么它天然不稳定、不可控、但又非常有用
 
-### **Day 1 ｜大语言模型到底在干什么**
+### **Day 1 ｜[大语言模型到底在干什么](./week1/01.大语言模型到底在干什么.ipynb)**
 
 #### 学习内容
 
@@ -83,7 +83,7 @@ uv run jupyter notebook
 - 「预测下一个 token」的真实含义
 - 为什么一个“预测器”能产生看起来像智能的行为
 
-### **Day 2 ｜ Token、Embedding 与向量空间**
+### **Day 2 ｜ [Token、Embedding 与向量空间](./week1/02.Token、Embedding与向量空间.ipynb)**
 
 #### 学习内容
 
@@ -91,7 +91,7 @@ uv run jupyter notebook
 - Embedding 是什么，它解决了什么问题
 - 相似性、类比、联想在向量空间中如何体现
 
-### **Day 3 ｜ Transformer：模型的计算引擎**
+### **Day 3 ｜ [Transformer：模型的计算引擎](./week1/03.Transformer.ipynb)**
 
 #### 学习内容
 
@@ -99,7 +99,7 @@ uv run jupyter notebook
 - Self-Attention 在“算什么”
 - Layer 在模型中承担的角色
 
-### **Day 4 ｜从训练到推理：模型是怎么“学会语言”的**
+### **Day 4 ｜[从训练到推理：模型是怎么“学会语言”的](./week1/04.从训练到推理.ipynb)**
 
 #### 学习内容
 
@@ -107,7 +107,7 @@ uv run jupyter notebook
 - 训练过程是怎样的
 - 训练阶段 vs 推理阶段
 
-### **Day 5 ｜概率、随机性与不稳定性**
+### **Day 5 ｜[概率、随机性与不稳定性](./week1/05.概率、随机性与不稳定性.ipynb)**
 
 #### 学习内容
 
@@ -115,7 +115,7 @@ uv run jupyter notebook
 - temperature等参数
 - LLM 擅长什么，不擅长什么
 
-### **Day 6 ｜一次 LLM API 调用，到底发生了什么？**
+### **Day 6 ｜[一次 LLM API 调用，到底发生了什么？](./week1/06.一次%20LLM%20API%20调用，到底发生了什么.ipynb)**
 
 #### 学习内容
 
@@ -123,7 +123,7 @@ uv run jupyter notebook
 - 一次完整调用过程说明
 - 一次调用中的“可控点”与“不可控点”
 
-### **Day 7 ｜思考 & 补充学习资料**
+### **Day 7 ｜[思考 & 补充学习资料](./week1/07.思考%20&%20补充学习资料.md)**
 
 #### 反思问题
 
@@ -137,14 +137,14 @@ uv run jupyter notebook
 
 > 基于Langchain和Gradio动手实现一个**英语学习 Agent**
 
-### **Day 8 ｜用 LLM 生成英文学习内容**
+### **Day 8 ｜[用 LLM 生成英文学习内容](./week2/08.用LLM生成英文学习内容.md)**
 
 #### 学习内容
 
 - 了解LangChain
 - 调用LLM生成英语文本，如简单句子、段落、词汇解释
 
-### **Day 9 ｜ 前端交互**
+### **Day 9 ｜ [前端交互](./week2/09.前端交互.md)**
 
 #### 学习内容
 
@@ -152,35 +152,35 @@ uv run jupyter notebook
 - 基于Gradio实现英语学习界面
 - 通过界面与Agent进行交互
 
-### **Day 10 ｜多轮对话**
+### **Day 10 ｜[多轮对话](./week2/10.多轮对话.md)**
 
 #### 学习内容
 
 - 构建对话型 Agent，可连续辅导用户写作
 - 保存上下文，逐轮提供修改建议
 
-### **Day 11 ｜流式生成**
+### **Day 11 ｜[流式生成](./week2/11.流式生成.md)**
 
 #### 学习内容
 
 - 支持流式生成英语内容
 - 提升交互体验
 
-### **Day 12 ｜多模态**
+### **Day 12 ｜[多模态](./week2/12.多模态.md)**
 
 #### 学习内容
 
 - 支持语音输入和图片输入
 - 实现英语听力、阅读辅助
 
-### **Day 13 ｜深度思考**
+### **Day 13 ｜[深度思考](./week2/13.深度思考.md)**
 
 #### 学习内容
 
 - 实现作文评分、复杂阅读理解分析
 - 引导模型进行 chain-of-thought 生成
 
-### **Day 14 ｜思考 & 补充学习资料**
+### **Day 14 ｜[思考 & 补充学习资料](./week2/14.思考%20&%20补充学习资料.md)**
 
 #### 反思问题
 
@@ -201,8 +201,7 @@ uv run jupyter notebook
 
 - Promp 是什么，不是什么
 - Prompt 的真实作用
-- Prompt 适合做什么
-- Prompt 不适合做什么
+- Prompt 适合做什么,不适合做什么
 
 ### **Day 16 ｜ Prompt 的通用技巧**
 
@@ -226,7 +225,6 @@ uv run jupyter notebook
 
 - 单 Prompt 的天然局限
 - 思维链的基本思想
-- 每一步 Prompt 的职责
 - CoT vs 一次性长 Prompt
 
 ### **Day 19 ｜结构化输出”**
@@ -244,15 +242,13 @@ uv run jupyter notebook
 - 为什么一次写好 Prompt 几乎不可能
 - 常见失败模式
 - Prompt 迭代的基本流程
-- Prompt 不应该独立优化
 
 ### **Day 21 ｜思考 & 补充学习资料**
 
 #### 反思问题
 
 - Prompt 本质上在做什么？
-- Prompt 在系统中的位置
-- Prompt 能解决的上限
+- Prompt 在系统中的位置, 以及能解决的上限
 - Prompt 如何配合工程能力
 
 ## Week 4 工具使用
@@ -275,7 +271,6 @@ uv run jupyter notebook
 - 什么是工具调用(Tool / Function Calling)
 - Tool Schema 的本质（能力描述）
 - 模型在 Tool Calling 中做了什么
-- Tool 调用 ≠ 执行结果
 
 ### **Day 24 ｜ 基于 Langchain 的工具调用示例**
 
@@ -322,7 +317,6 @@ uv run jupyter notebook
 
 #### 学习内容
 
-- LLM 的“知识幻觉”从哪里来
 - 预训练知识的限制
 - 预训练知识 vs 私有知识 vs 实时知识
 - 为什么 Prompt 永远解决不了“事实正确性”
@@ -434,8 +428,7 @@ uv run jupyter notebook
 
 - 上下文在 Agent 系统中的位置
 - 常见上下文设计反模式
-- 哪些问题该用上下文解决
-- 哪些问题不该用上下文解决
+- 哪些问题该用上下文解决，哪些问题不该用上下文解决
 
 ## Week 7 ｜记忆系统（Memory System）
 
@@ -447,7 +440,6 @@ uv run jupyter notebook
 
 #### 学习内容
 
-- LLM 天生无状态
 - Context 的不可持续性
 - 没有记忆的 Agent 能做到什么
 - 记忆与“智能体行为一致性”
@@ -457,10 +449,6 @@ uv run jupyter notebook
 #### 学习内容
 
 - 建立对 Memory 的结构化认知。
-  - 短期 / 中期 / 长期记忆
-  - 事实型 / 偏好型 / 行为型记忆
-  - 显式记忆 vs 隐式记忆
-  - 哪些内容不该成为记忆
 - 学会“克制地记忆”
 
 ### **Day 45 ｜记忆的更新、遗忘与冲突**
