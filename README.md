@@ -233,11 +233,11 @@ uv run jupyter notebook
 - Prompt 的真实作用
 - Prompt 适合做什么,不适合做什么
 
-### **Day 16 ｜ Prompt 的通用技巧**
+### **Day 16 ｜ [Prompt 的通用技巧](./week3/16.Prompt的通用技巧.md)**
 
 #### 学习内容
 
-- 学习 Prompt 的通用技巧
+- 编写 Prompt 的通用技巧
 - 编写 Prompt 需要注意什么
 
 ### **Day 17 ｜零样本提示与少样本提示**
