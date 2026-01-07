@@ -223,7 +223,7 @@ uv run jupyter notebook
 
 #### 本周目标
 
-> **学习提示词工程的概念、通用技巧、和优化迭代技巧**
+> **学习提示词工程的底层逻辑、通用技巧、和优化迭代技巧**
 
 ### **Day 15 ｜ [提示词工程的底层逻辑](./week3/15.提示词工程的底层逻辑.md)**
 
@@ -240,14 +240,13 @@ uv run jupyter notebook
 - 编写 Prompt 的通用技巧
 - 编写 Prompt 需要注意什么
 
-### **Day 17 ｜零样本提示与少样本提示**
+### **Day 17 ｜[零样本提示与少样本提示](./week3/17.零样本提示与少样本提示.md)**
 
 #### 学习内容
 
-- 什么是 Zero-shot Prompt
-- 什么是 Few-shot Prompt
+- 零样本与少样本
 - 示例数量为什么“少而精”
-- 何时不该用 Few-shot
+- 何时不该用少样本
 
 ### **Day 18 ｜思维链 CoT**
 
@@ -257,7 +256,7 @@ uv run jupyter notebook
 - 思维链的基本思想
 - CoT vs 一次性长 Prompt
 
-### **Day 19 ｜结构化输出”**
+### **Day 19 ｜结构化输出**
 
 #### 学习内容
 
@@ -281,7 +280,7 @@ uv run jupyter notebook
 - Prompt 在系统中的位置, 以及能解决的上限
 - Prompt 如何配合工程能力
 
-## Week 4 工具使用
+## Week 4 ｜工具使用
 
 #### 本周目标
 
