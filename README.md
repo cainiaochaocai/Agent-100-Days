@@ -257,7 +257,7 @@ uv run jupyter notebook
 - CoT vs 一次性长 Prompt
 - 思维链的延伸
 
-### **Day 19 ｜结构化输出**
+### **Day 19 ｜[结构化输出](./week3/19.结构化输出.md)**
 
 #### 学习内容
 
