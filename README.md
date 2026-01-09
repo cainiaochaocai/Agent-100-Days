@@ -285,14 +285,15 @@ uv run jupyter notebook
 
 #### 本周目标
 
-> **学习基于 LLM 工具调用和原理，基于 langchain 的工具调用实现和 MCP 的设计开发**
+> **学习基于 LLM 工具调用的原理，基于 langchain 的工具调用实现和 MCP 的设计开发**
 
-### **Day 22 ｜为什么 LLM 一定需要工具**
+### **Day 22 ｜[为什么 LLM 一定需要工具](./week4/22.为什么LLM一定需要工具.md)**
 
 #### 学习内容
 
 - LLM 的三大天然缺陷
 - 工具在系统中的角色
+- 工具 / 技能 / 智能体 的层级关系
 
 ### **Day 23 ｜ 工具调用的基本机制**
 
@@ -322,7 +323,7 @@ uv run jupyter notebook
 - 基于 fastmap 实现一个 MCP Server
 - 基于 cherry studio 连接 MCP Server
 
-### **Day 27 ｜技能的学习与开发**
+### **Day 27 ｜从工具到技能**
 
 #### 学习内容
 
