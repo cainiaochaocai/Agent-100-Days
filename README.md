@@ -303,11 +303,13 @@ uv run jupyter notebook
 - Tool Schema 的本质（能力描述）
 - 模型在 Tool Calling 中做了什么
 
-### **Day 24 ｜ 基于 Langchain 的工具调用示例**
+### **Day 24 ｜ [基于 Langchain 的工具调用](./week4/24.基于Langchain的工具调用.md)**
 
 #### 学习内容
 
-- 基于 langchain 实现 LLM 的工具调用
+- LangChain 在工具调用里做了什么？
+- 一个最小可用示例
+- LangChain 工具调用流程拆解
 
 ### **Day 25 ｜ MCP 介绍**
 
