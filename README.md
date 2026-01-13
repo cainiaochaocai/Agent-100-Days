@@ -311,11 +311,11 @@ uv run jupyter notebook
 - 一个最小可用示例
 - LangChain 工具调用流程拆解
 
-### **Day 25 ｜ MCP 介绍**
+### **Day 25 ｜ [MCP 介绍](./week4/25.MCP介绍.md)**
 
 #### 学习内容
 
-- Tool Calling 的问题
+- 工具调用的问题
 - 什么是 MCP
 
 ### **Day 26 ｜ MCP 实战**
