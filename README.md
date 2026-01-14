@@ -318,7 +318,7 @@ uv run jupyter notebook
 - 工具调用的问题
 - 什么是 MCP
 
-### **Day 26 ｜ MCP 实战**
+### **Day 26 ｜ [MCP 实战](./week4/26.MCP实战.md)**
 
 #### 学习内容
 
