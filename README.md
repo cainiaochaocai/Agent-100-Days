@@ -344,7 +344,7 @@ uv run jupyter notebook
 
 #### 本周目标
 
-> **了解 RAG 的基本原理，学习 RAG 在 Agent 的使用**
+> **了解 RAG 的基本原理，学习 RAG 完整链路**
 
 ### **Day 29 ｜[RAG 是怎么工作的](./week5/29.RAG是怎么工作的.md)**
 
