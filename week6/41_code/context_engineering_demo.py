@@ -1,7 +1,7 @@
 """
 Week 6 上下文工程实战：多轮对话 + 时间窗口 + 参考内容注入
 
-- 用 LangChain 组装每拍的 Context：System + 历史（最近 K 轮）+ 当前问题
+- 用 LangChain 组装每轮的 Context：System + 历史（最近 K 轮）+ 当前问题
 - 可选：在本轮 user 消息中注入「参考内容」（模拟 RAG），放在用户问题前
 - 使用 tiktoken 估算当前 messages 的 token 数
 
@@ -61,7 +61,7 @@ def build_messages(
     ref: str | None,
     k: int = 3,
 ) -> list:
-    """组装本拍要发给 LLM 的 messages：System + 最近 k 轮历史 + 当前 user（可选带参考内容）。"""
+    """组装本轮要发给 LLM 的 messages：System + 最近 k 轮历史 + 当前 user（可选带参考内容）。"""
     window = keep_last_k_turns(history, k)
     if ref:
         user_content = f"【参考内容】\n{ref}\n\n【用户问题】\n{user_input}"
