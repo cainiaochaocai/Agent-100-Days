@@ -21,4 +21,5 @@ dependencies = [
     "fastmcp>=2.14.3",
     "httpx[socks]>=0.28.1",
     "mem0ai>=1.0.3",
+    "agno>=2.5.2",
 ]
