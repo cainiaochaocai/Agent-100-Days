@@ -22,4 +22,5 @@ dependencies = [
     "httpx[socks]>=0.28.1",
     "mem0ai>=1.0.3",
     "agno>=2.5.2",
+    "json-repair>=0.58.0",
 ]

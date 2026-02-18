@@ -14,6 +14,7 @@ dependencies = [
     { name = "agno" },
     { name = "fastmcp" },
     { name = "httpx", extra = ["socks"] },
+    { name = "json-repair" },
     { name = "jupyter" },
     { name = "langchain" },
     { name = "langchain-community" },
@@ -35,6 +36,7 @@ requires-dist = [
     { name = "agno", specifier = ">=2.5.2" },
     { name = "fastmcp", specifier = ">=2.14.3" },
     { name = "httpx", extras = ["socks"], specifier = ">=0.28.1" },
+    { name = "json-repair", specifier = ">=0.58.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "langchain", specifier = ">=1.2.3" },
     { name = "langchain-community", specifier = ">=0.4.1" },
@@ -1512,6 +1514,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/41/f2/d34e8b3a08a9cc79a50b2208a93dce981fe615b64d5a4d4abee421d898df/joblib-1.5.3.tar.gz", hash = "sha256:8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3", size = 331603 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/91/984aca2ec129e2757d1e4e3c81c3fcda9d0f85b74670a094cc443d9ee949/joblib-1.5.3-py3-none-any.whl", hash = "sha256:5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713", size = 309071 },
+]
+
+[[package]]
+name = "json-repair"
+version = "0.58.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0c/9b/2a1500e587fd7c33f10dc90d4e26a6ad421bdfbc7ab84c244279b2515e42/json_repair-0.58.0.tar.gz", hash = "sha256:8465fe2f8b7515d1cbf262a2608630e73d9498598bd42330c89f59923c50d0e4", size = 57425 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1a/35/006b1625a645556f0d18247694c3f278eb122526fca2766ab2e8fba997e7/json_repair-0.58.0-py3-none-any.whl", hash = "sha256:54c31d22a47d5d4a52c4b022604d73f64bc5b01211f3422f0a671b1cc4ccfe3c", size = 40024 },
 ]
 
 [[package]]
