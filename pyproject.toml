@@ -23,4 +23,5 @@ dependencies = [
     "mem0ai>=1.0.3",
     "agno>=2.5.2",
     "json-repair>=0.58.0",
+    "flask>=3.1.3",
 ]
