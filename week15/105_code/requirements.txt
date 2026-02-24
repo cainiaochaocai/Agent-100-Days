@@ -1,0 +1,9 @@
+# Week 15 生产示例最小依赖（与 pyproject.toml 中相关包一致）
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+flask>=3.0.0
+
+# 可选：Langfuse 可观测性（配置 LANGFUSE_PUBLIC_KEY、LANGFUSE_SECRET_KEY 后自动上报 trace）
+# langfuse>=2.0.0
