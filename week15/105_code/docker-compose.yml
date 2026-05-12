@@ -1,0 +1,20 @@
+# Week 15 生产示例 — Docker Compose（Day 103）
+# 在项目根目录运行：docker-compose -f week15/105_code/docker-compose.yml up --build
+
+version: "3"
+services:
+  agent-platform:
+    build:
+      context: ../..
+      dockerfile: week15/105_code/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

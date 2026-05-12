@@ -1,7 +1,7 @@
----
 name: web-researcher
 description: 深入分析指定网页内容并生成结构化调研报告。当用户提供 URL 并要求深度分析时使用。
 version: 1.0.0
+
 ---
 
 # 技能指令 (Instructions)
@@ -16,5 +16,6 @@ version: 1.0.0
 3. **格式化输出**：必须使用 `resources/templates/report_template.md` 填充结果。
 
 # 注意事项
+
 - 如果网页无法访问，尝试调用搜索工具寻找快照。
 - 严禁编造数据，所有结论需附带原文引述。
